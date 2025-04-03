@@ -3,7 +3,7 @@ def objective_function(x):
        return -x**2 + 10*x + 25
 
 def hill_climbing(max_iterations=1000, step_size=0.1):
-    current_solution = random.uniform(-10, 10)  # Start with a random solution
+    current_solution = random.uniform(-10, 10)  
     current_value = objective_function(current_solution)
 
     for _ in range(max_iterations):
